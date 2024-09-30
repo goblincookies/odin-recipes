@@ -1,0 +1,16 @@
+* {
+    outline: 2px solid red;
+}
+
+body {
+    background-color: rgb(238, 228, 226);
+    padding: 2em;
+    margin: 0;
+}
+.content {
+    background-color: white;
+    padding: 2em;
+}
+.content__title {
+    text-align: left;
+}
