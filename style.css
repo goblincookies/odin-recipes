@@ -1,16 +1,39 @@
-* {
+/* * {
     outline: 2px solid red;
-}
+    #8ECAE6 - light blue
+    #219EBC - mid blue
+    #023047 - dark blue
+    #FFB703 - yellow orange
+    #FB8500 - orange    
+} */
 
 body {
-    background-color: rgb(238, 228, 226);
-    padding: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #219EBC;
     margin: 0;
+    color: #023047;
 }
 .content {
-    background-color: white;
-    padding: 2em;
+    background-color: rgb(255, 255, 255);
+    margin: 2em;
 }
 .content__title {
-    text-align: left;
+    /* text-align: left; */
+}
+.content__upper-box {
+    background-color: #FB8500;
+    padding: 2em;
+}
+.content__lower-box {
+    /* background-color: #FFB703; */
+    padding: 2em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1,
+h3 {
+    color: #023047;
 }
